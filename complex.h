@@ -1,6 +1,5 @@
 #ifndef __COMPLEX_H
 #define __COMPLEX_H
-
 #include<iostream>
 template <typename T>
 class Complex {
@@ -41,7 +40,7 @@ void dispay()
     std::cout<<re<< " +i " <<im<<"\n";
 }
 template <typename T>
-Complex<T>::~Comple()
+Complex<T>::~Complex()
 {
 
 }
