@@ -23,8 +23,8 @@ namespace
         EXPECT_EQ(20, c1.get_Real());
         EXPECT_EQ(5, c1.get_Img());
 
-        Complex<int> c2(c1);
-        EXPECT_EQ(6, c2.get_Real());
-        EXPECT_EQ(12, c2.get_Img());
+        Complex<double> c2(c1);
+        EXPECT_EQ(20.0, c2.get_Real());
+        EXPECT_EQ(5.0, c2.get_Img());
     }
 }
